@@ -14,8 +14,8 @@ class DemoBootstrapCarousel extends React.Component{
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>好學生文具線上商城</h3>
-        <p>馬上點選"優惠活動"，即刻領取優惠卷</p>
+        {/* <h3>好學生文具線上商城</h3>
+        <p>馬上點選"優惠活動"，即刻領取優惠卷</p> */}
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -26,8 +26,8 @@ class DemoBootstrapCarousel extends React.Component{
       />
 
       <Carousel.Caption>
-        <h3>好學生文具線上商城</h3>
-        <p>馬上點選"優惠活動"，即刻領取優惠卷</p>
+        {/* <h3>好學生文具線上商城</h3>
+        <p>馬上點選"優惠活動"，即刻領取優惠卷</p> */}
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -37,8 +37,8 @@ class DemoBootstrapCarousel extends React.Component{
         alt="Third slide"
       />
       <Carousel.Caption>
-        <h3>好學生文具線上商城</h3>
-        <p>馬上點選"優惠活動"，領取優惠卷</p>
+        {/* <h3>好學生文具線上商城</h3>
+        <p>馬上點選"優惠活動"，領取優惠卷</p> */}
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>            
