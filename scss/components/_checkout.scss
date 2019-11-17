@@ -93,9 +93,9 @@
                     //     width:100%;
                     // }
                     button.submitCuponCode{
-                        height: 65px;
+                        height: 2rem;
                         width: 5rem;
-                        padding: 5px;
+                        padding: 0.5rem;
                         // width:100%;
                         @media (max-width:769px){
                             height:35px;
@@ -129,7 +129,7 @@
         .container{
             button{
                 
-                height:80px;
+                height:2.5rem;
                 
                 @media (max-width:769px){
                     height:40px;
