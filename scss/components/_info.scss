@@ -45,7 +45,7 @@
     .container{
         width:100%;
         .infoTitle{
-            font-size: 3.5rem;
+            font-size: 2rem;
             font-weight: 600;
             margin-bottom: 1rem;
             color:#0A3665;
@@ -56,10 +56,13 @@
             }
         }
         form{
-            font-size: 2.8rem;
+            font-size: 1.5rem;
             color:#0A3665;
             @media (max-width:768px) {
                 font-size:1.2rem;
+            }
+            .btn-primary{
+                height:2.5rem;
             }
             .btn-success{
                 height:80px;

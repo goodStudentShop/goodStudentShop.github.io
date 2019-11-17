@@ -8,7 +8,7 @@
     }
     .container{
         .titleReport{
-            font-size: 3.5rem;
+            font-size: 2rem;
             color: #0A3665;
             font-weight: 600;
             margin-bottom: 1.5rem;
@@ -20,7 +20,7 @@
 
        div{
         table{
-            font-size: 3rem;
+            font-size: 1.7rem;
             text-align: center;
             
             @media (max-width:768px) {
@@ -85,7 +85,7 @@
         
         .container{
             .row .totalPriceReport{
-                font-size: 3rem;
+                font-size: 2rem;
                 font-weight: bold;
                 color: #28A745;
                 @media (max-width:768px){
@@ -105,7 +105,7 @@
         }
         .container{
             .btn-success{
-                height:80px;
+                height:2.5rem;
                    
             }
             @media (max-width:768px){
@@ -121,7 +121,7 @@
         }
         .discountedPrice.discountedPrice-active{
             display: block;
-            font-size: 3rem;
+            font-size: 2rem;
                 font-weight: bold;
                 color: #28A745;
                 @media (max-width:768px){
@@ -136,7 +136,7 @@
 
 
 .titlePersonalInfo{
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #0A3665;
     margin-bottom: 1.5rem;
@@ -148,6 +148,9 @@
         margin-bottom: 1rem;;
     }
 }
+// .paymentButton{
+//     height:2.5rem;
+// }
 
 .reportProductImg{
     height: 150px;
