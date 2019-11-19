@@ -24,8 +24,8 @@ class FooterBootstrapCloud extends React.Component{
                         Email:Iamhoward212@gmail.com</li>
                     <li>
                         <a href="https://github.com/goodStudentShop/goodStudentShop.github.io/tree/master/css">
-                        <i class="fab fa-github"></i></a>
-                        Github</li>
+                        <i class="fab fa-github"></i>Github</a>
+                        </li>
                         
 
                 </ul>
