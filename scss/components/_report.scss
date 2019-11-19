@@ -43,7 +43,7 @@
                 tr{
                     td{
                         .checkoutProducImg{
-                            max-height: 150px;
+                            height: 5rem;
                         }
                         @media (max-width: 768px) {
                             .checkoutProducImg{
@@ -153,7 +153,7 @@
 // }
 
 .reportProductImg{
-    height: 150px;
+    height: 5rem;
 }
 @media (max-width: 768px) {
     .reportProductImg{
