@@ -40,25 +40,7 @@ class Product extends React.Component{
     
     render(){
         return (
-    // <div className="product">
-    //     <div className="product-img">
-    //       <img
-    //           src={this.props.imgLink}
-    //           onClick={this.props.openMadel.bind(this,this.props.id)}                    >
-    //       </img>
-    //     </div>
-    //     <h4> {this.props.productName}</h4>
-    //     <p className="product-price">
-    //         NT$ {this.props.price}  </p>
-    //     <div className="product-add-action">
-    //       <Conter 
-    //         handleUpdateQuantity={this.handleUpdateQuantity}
-    //         productQuantity={this.state.quantity}></Conter>
-    //       <button
-    //         className="product-addCart-btn"
-    //         onClick={this.handleAddCart}>加入購物車</button>
-    //     </div>
-    //   </div>
+    
 <div className="col-md-12 col-lg-6 col-xl-3">
   <Card className="product" 
          style={{ width: '18rem' }}>

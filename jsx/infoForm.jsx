@@ -14,9 +14,9 @@ class InfoForm extends React.Component{
         }
         
         this.cities=Object.keys(this.props.taiwanPostalCodes);
-        // this.anchorRef = React.createRef()
+        
         this.handleShowJumpOutGoToPay=this.props.handleShowJumpOutGoToPay.bind(this);
-        // this.handleCloseJumpOutGoToPay=this.props.handleCloseJumpOutGoToPay
+        
     }
     handlerRelated=(name,value)=>{
         let mergeObject={}

@@ -32,7 +32,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import CuponAlert from "./cuponAlert.jsx"
 
-class BasicExample extends React.Component{  
+class App extends React.Component{  
   constructor(props){
     super(props)
     this.state = {
@@ -870,4 +870,4 @@ class Checkout extends React.Component{
     );
   }
 }
-ReactDOM.render(<BasicExample/>,document.getElementById("root"))
+ReactDOM.render(<App/>,document.getElementById("root"))
