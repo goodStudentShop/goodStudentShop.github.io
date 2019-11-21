@@ -5,7 +5,7 @@
 <p>使用到的技術: Webpack, Bootstrap, React, React-Router, React-Bootstrap,SASS</p>
 <h4>React-Router:</h4> 
   <p>使用到Router ,Route, Switch ,Link元件，達到多頁的瀏覽效果。</p>
-  <p>以class App為核心，使用Router ,Route, Switch ,Link架構可多頁且切換的網站。雖然看起來是多頁面的，但整個網站其實都在<Router>裡面。利用Switch做到網頁切換的效果，Route path來指定網站路徑。Link來做超鏈結的功能。</p>
+  <p>以class App為核心，使用Router ,Route, Switch ,Link架構可多頁且切換的網站。雖然看起來是多頁面的，但整個網站其實都在Router裡面。利用Switch做到網頁切換的效果，Route path來指定網站路徑。Link來做超鏈結的功能。</p>
 <p>以class App為核心，將數據都存放在state裡面，再使用value=this.state.value的方式讓數據傳遞到別的class。handler也放在class App裡面，若有需要傳遞到別的class，使用handler=this.state.handler的方式，讓別的class使用。</p>
 <p>若是有增減數量，或是啟動/關閉某個功能，則以this.setState 來調整state的數據資料，將this.setstate放在handler裡面。</p>
 <p>若是要顯示已儲存在state的數據，像是使用者在"填寫資料"頁面所填寫的"電話號碼"，要在"結帳畫面"顯示已經填寫的"電話號碼"，則使用phoneNumber=this.props.phoneNumber 將"電話號碼"顯示出來。</p>
