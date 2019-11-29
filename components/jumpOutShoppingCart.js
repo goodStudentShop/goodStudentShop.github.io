@@ -73,7 +73,7 @@ class JumpOutShoppingCart extends React.Component{
         <span class="badge badge-primary">{this.props.totalItem}</span>
       </div>
 
-      <Modal size="lg" show={show} onHide={handleClose}
+      <Modal show={show} onHide={handleClose}
       scrollable={true}
       >
         <Modal.Header closeButton>
