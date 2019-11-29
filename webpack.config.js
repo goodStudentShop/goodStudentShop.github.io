@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './jsx/mainATest.jsx',     
+  entry: './jsx/App.jsx',     
   output: {                     
     path: path.resolve(__dirname, 'js'),   
     filename: 'main.js'       
