@@ -28,7 +28,6 @@
             }
             .checkOutTableThead{
                 background-color:#0A3665;
-                // #4d4d4d;
                 color:white;
                 .checkOutTableTheadProductPicture{
                         width:20%;
@@ -62,11 +61,8 @@
                     }
                     td{
                         .productPrice{
-                            // color:black;
                         }
                         .productPrice.productPrice-active{
-                            
-                            // color:black;
                             text-decoration:line-through;
                             text-decoration-color:red;
                         }
@@ -93,10 +89,10 @@
                     margin-top: 1rem;
                 }
                 .productPrice{
-                    // color:black;
+               
                 }
                 .productPrice.productPrice-active{
-                    // color:black;
+               
                     text-decoration:line-through;
                     text-decoration-color:red;
                 }
@@ -148,10 +144,11 @@
         margin-bottom: 1rem;;
     }
 }
-// .paymentButton{
-//     height:2.5rem;
-// }
-
+.report{
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
 .reportProductImg{
     height: 5rem;
 }
@@ -160,3 +157,11 @@
         height: 60px;
     }
 }
+.paymentButton{
+    height:100px;
+    width:100%;
+}
+
+.payment-active{   
+    background-color: blue !important;
+}    

@@ -24,9 +24,6 @@
        div{
         table{
             text-align: center;
-            // font-size: 2.5rem;
-            // font-weight: 500;
-
             .checkOutTableThead{
                 background-color: #0A3665;
                 color:white;
@@ -47,7 +44,7 @@
                 tr{
                     td{
                         .checkoutProducImg{
-                            // max-height: 150px;
+                    
                             height:5rem;
                         }
                         @media (max-width: 768px) {
@@ -67,7 +64,7 @@
                     }
                     td{
                         .productPrice{
-                            // color:black;
+                    
                         }
                         .productPrice.productPrice-active{
                             
@@ -90,14 +87,12 @@
         .container{
             .row{
                 .col-12{
-                    // input{
-                    //     width:100%;
-                    // }
+                    
                     button.submitCuponCode{
                         height: 2rem;
                         width: 5rem;
                         padding: 0;
-                        // width:100%;
+                    
                         @media (max-width:769px){
                             height:35px;
                         }
@@ -114,13 +109,12 @@
                     font-size: 1.3rem;
                     margin-top: 2rem;
                     
-                    // font-weight: bold;
+                    
                 }
                 .productPrice{
-                    // color:black;
+                    
                 }
                 .productPrice.productPrice-active{
-                    // color:black;
                     text-decoration:line-through;
                     text-decoration-color:red;
                 }
@@ -159,9 +153,7 @@
             @media (max-width:768px){
                 font-size: 1.3rem;
                 margin-top: 0.3rem;
-                
-                // font-weight: bold;
-            }
+              }
             
         }
     }
@@ -175,3 +167,14 @@
     }
 }
 
+.btn-primary{
+    height:100px;
+     
+}
+
+@media (max-width: 480px) {
+    .btn-primary{
+    height:40px;
+     
+}  
+         }  

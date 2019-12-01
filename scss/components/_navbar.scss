@@ -1,3 +1,12 @@
+.routerUl{
+    margin-bottom: 0;
+    visibility:hidden;
+}
+.router{
+    background-color:#f2f2f2;
+}
+
+
 .navbarObj{
     background: #0669B2;
     position: fixed !important;
@@ -17,14 +26,11 @@
         }
         .navLogo{
             color:white;
-            // font-size:30px;
+    
             .navBrand{
                 color:white;
                 padding:0 10px 0 10px;
-                // font-size: 30px;
                 font-weight: 500;
-                // background-color: gold;
-                                
             }
         }
         i{
@@ -147,7 +153,7 @@
             .cart-product-remove{
                 color:tomato;
             }
-           
+         
        }
        
        .cart-acton-area{

@@ -20,8 +20,6 @@ header {
       }
     }
   }
-  
-  // Logo
   .logo {
     height: 36px;
     @media (max-width: 480px) {
@@ -37,16 +35,11 @@ header {
     font-size:3em; 
     color:Tomato;
     margin:0 20px;
-  
-
   }
-  
   .search-area{
     flex-grow: 2;
     -webkit-flex-grow: 2;
   }
-  
-  // Search Box
   .search {
     display: flex;
     display: -webkit-flex;
@@ -77,8 +70,6 @@ header {
       }
     }
   }
-  
-  //cart-info
   .shopping-cart{
     position: relative;
     .cart-info{
